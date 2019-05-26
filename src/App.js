@@ -1,24 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// import './App.css';
+// import Header from './components/Header';
+// import Slider from './components/Slider';
+// import ProductList from './components/ProductList';
+// import Footer from './components/Footer';
+// import Modal from './components/Modal';
+// import BaiTapGioHang from './components/baitapgiohang/BaiTapGioHang';
+
+import BaiTapGameBauCua from './components/BaiTApGameBAuCua/BaiTapGameBauCua';
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    {/* <BaiTapGioHang /> */}
+   {/* <BaiTapQuanLySinhVien /> */}
+   <BaiTapGameBauCua />
+      {/* <Header />
+      <Slider />
+      <ProductList />
+      <Footer />
+      <Modal /> */}
     </div>
   );
 }
